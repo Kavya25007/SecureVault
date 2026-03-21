@@ -1,127 +1,126 @@
-# SecureVault
-SecureVault 🔐 – A high-end AI-powered password security software with strength analysis, generator, and cyber UI.
-It is designed with a premium cyber-themed UI and interactive features to simulate real-world security analysis.
+# 🔐 SecureVault
+
+SecureVault is a modern cybersecurity web application that helps users analyze and improve their password strength in real-time.
+
+It features a clean cyber-themed interface with interactive feedback, making it easy to understand how secure a password is.
 
 ---
 
 ## 🚀 Features
 
 ### 🔐 Password Strength Checker
-Analyzes passwords based on:
-- Length
-- Uppercase & lowercase characters
+Evaluates password strength based on:
+- Minimum length (8+ characters)
+- Uppercase letters
 - Numbers
-- Special symbols  
+- Special characters  
 
-Provides a **score from 0–100** with real-time feedback.
+Displays a real-time **score from 0–100**.
 
 ---
 
-### 🤖 AI Password Analyzer
-Smart detection of weak patterns such as:
-- Common passwords (e.g. "123456", "password")
-- Repeated characters
-- Predictable patterns  
+### 📊 Visual Strength Indicator
+- Dynamic progress bar  
+- Color-based feedback:
+  - 🔴 Weak  
+  - 🟠 Medium  
+  - 🟢 Strong  
 
-Gives intelligent suggestions to improve security.
+---
+
+### 🤖 Smart Password Analysis
+Detects weak patterns such as:
+- Common passwords (e.g. "123456", "password")
+- Simple or predictable inputs  
+
+Provides real-time feedback to improve security.
+
+---
+
+### ⏳ Crack Time Estimation
+Shows how quickly a password can be cracked:
+- Seconds ⚠️  
+- Hours ⏳  
+- Years 🔥  
 
 ---
 
 ### 🎲 Password Generator
 Generates strong and secure passwords using:
-- Random characters
-- Mixed patterns  
-
-Helps users create **hack-resistant passwords instantly**.
+- Random characters  
+- Mixed combinations  
 
 ---
 
 ### 📋 Copy to Clipboard
-One-click copy feature for easy usage.
-
----
-
-### ⏳ Crack Time Estimation
-Estimates how long it would take to crack a password:
-- Seconds ⚠️
-- Hours ⏳
-- Years 🔥  
-
----
-
-### 🚫 Common Password Detection
-Warns users if the password is widely used or unsafe.
+Allows users to copy passwords instantly with a confirmation message.
 
 ---
 
 ### 💡 Smart Suggestions
-Provides tips like:
-- Add uppercase letters
-- Use special characters
+Provides useful tips such as:
 - Increase password length  
+- Add uppercase letters  
+- Include numbers and symbols  
+
+Also suggests a stronger version of the entered password.
 
 ---
 
-### 🌌 Premium Cyber UI
+### 🌙 Theme Toggle
+Switch between light and dark mode for better usability.
+
+---
+
+### 🌌 Cyber-Themed UI
 - Glassmorphism design  
-- Animated particles  
-- Typing welcome screen  
+- Animated particle background  
+- Typing welcome animation  
 - Smooth transitions  
 
 ---
 
-## 🎯 Purpose of the Project
+## 🎯 Purpose
 
 The goal of SecureVault is to:
 
-- Educate users about password security  
-- Demonstrate real-world cybersecurity concepts  
-- Provide an interactive learning experience  
+- Help users understand password strength  
+- Promote better cybersecurity practices  
+- Provide an interactive and user-friendly experience  
 - Serve as a portfolio-level web project  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5  
-- CSS3 (Animations + UI Design)  
-- JavaScript (Logic + AI Simulation)  
+- HTML  
+- CSS  
+- JavaScript  
 
 ---
 
 ## 🌍 Live Demo
 
-👉 https://your-username.github.io/securevault/
+👉 https://Kavya25007.github.io/securevault/
 
 ---
 
 ## 📸 Preview
 
-A visually rich cybersecurity interface with real-time password analysis and AI-based suggestions.
+A cyber-themed password security tool with real-time analysis and interactive UI.
 
 ---
 
 ## 💼 Author
 
-Developed by **[Your Name]**
+Developed by **Your Name**
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful:
+If you like this project:
 - ⭐ Star the repository  
-- Share with others  
-- Improve and contribute  
-
----
-
-## 🚀 Future Improvements
-
-- Login & Signup system  
-- Dashboard with analytics  
-- Attack simulation (brute force demo)  
-- Backend integration (Flask / Node.js)  
-- Database support  
+- Share it with others  
 
 ---
