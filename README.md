@@ -5,6 +5,7 @@ SecureVault is a modern cybersecurity web application that helps users analyze a
 ## 🌟 Overview
 
 SecureVault is a visually rich cybersecurity web application that helps users evaluate and improve their password strength instantly.
+
 With a glowing cyber UI, interactive animations, and smart analysis, it provides a realistic experience of modern security tools.
 ---
 
