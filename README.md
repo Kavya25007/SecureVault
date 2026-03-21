@@ -98,7 +98,7 @@ It also helped me improve my UI design skills and understand how to give real-ti
 
 ## 🌍 Live Demo
 
-https://your-username.github.io/securevault/
+👉 [Open SecureVault](https://kavya25007.github.io/SecureVault/)
 
 ---
 
