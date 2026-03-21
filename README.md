@@ -2,125 +2,128 @@
 
 SecureVault is a modern cybersecurity web application that helps users analyze and improve their password strength in real-time.
 
-It features a clean cyber-themed interface with interactive feedback, making it easy to understand how secure a password is.
+## 🌟 Overview
+
+SecureVault is a visually rich cybersecurity web application that helps users evaluate and improve their password strength instantly.
+With a glowing cyber UI, interactive animations, and smart analysis, it provides a realistic experience of modern security tools.
+---
+
+## 🖼️ Preview
+
+### 🔹 Welcome Screen
+![Welcome UI](welcome.png)
+
+### 🔹 Password Tool Interface
+![App UI](app.png)
 
 ---
 
-## 🚀 Features
+## 🚀 Core Features
 
-### 🔐 Password Strength Checker
-Evaluates password strength based on:
-- Minimum length (8+ characters)
-- Uppercase letters
-- Numbers
-- Special characters  
-
-Displays a real-time **score from 0–100**.
+### 🔐 Password Strength Analysis
+- Evaluates passwords using multiple criteria:
+  - Length (8+ characters)
+  - Uppercase letters
+  - Numbers
+  - Special characters  
+- Displays a real-time **strength score (0–100)**
 
 ---
 
-### 📊 Visual Strength Indicator
+### 📊 Visual Feedback System
 - Dynamic progress bar  
-- Color-based feedback:
+- Color-coded results:
   - 🔴 Weak  
   - 🟠 Medium  
   - 🟢 Strong  
 
 ---
 
-### 🤖 Smart Password Analysis
-Detects weak patterns such as:
-- Common passwords (e.g. "123456", "password")
-- Simple or predictable inputs  
-
-Provides real-time feedback to improve security.
+### 🤖 AI-Based Suggestions
+- Detects weak patterns and common inputs  
+- Provides instant improvement tips  
+- Suggests stronger password variations  
 
 ---
 
 ### ⏳ Crack Time Estimation
-Shows how quickly a password can be cracked:
+Simulates how long a password would take to crack:
 - Seconds ⚠️  
 - Hours ⏳  
 - Years 🔥  
 
 ---
 
-### 🎲 Password Generator
-Generates strong and secure passwords using:
-- Random characters  
-- Mixed combinations  
+### 🎲 Secure Password Generator
+- Generates strong, random passwords  
+- Combines letters, numbers, and symbols  
 
 ---
 
-### 📋 Copy to Clipboard
-Allows users to copy passwords instantly with a confirmation message.
-
----
-
-### 💡 Smart Suggestions
-Provides useful tips such as:
-- Increase password length  
-- Add uppercase letters  
-- Include numbers and symbols  
-
-Also suggests a stronger version of the entered password.
+### 📋 Clipboard Support
+- Copy passwords instantly  
+- Quick feedback notification  
 
 ---
 
 ### 🌙 Theme Toggle
-Switch between light and dark mode for better usability.
+- Switch between light and dark modes  
 
 ---
 
-### 🌌 Cyber-Themed UI
+### 🌌 Premium UI Experience
 - Glassmorphism design  
+- Neon glow buttons  
 - Animated particle background  
-- Typing welcome animation  
-- Smooth transitions  
+- Typing animation on welcome screen  
+- Smooth transitions and interactions  
 
 ---
 
-## 🎯 Purpose
+## 🎯 Project Goal
 
-The goal of SecureVault is to:
+This project was built to:
 
-- Help users understand password strength  
-- Promote better cybersecurity practices  
-- Provide an interactive and user-friendly experience  
-- Serve as a portfolio-level web project  
+- Demonstrate real-time frontend interactivity  
+- Promote awareness of password security  
+- Showcase modern UI/UX design skills  
+- Serve as a professional portfolio project  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML  
-- CSS  
-- JavaScript  
+- HTML5  
+- CSS3 (Animations & UI Design)  
+- JavaScript (Logic & Interactivity)  
 
 ---
 
 ## 🌍 Live Demo
 
-👉 https://Kavya25007.github.io/securevault/
+👉 https://your-username.github.io/securevault/
 
 ---
 
-## 📸 Preview
+## 👨‍💻 Author
 
-A cyber-themed password security tool with real-time analysis and interactive UI.
-
----
-
-## 💼 Author
-
-Developed by **Your Name**
+**Kavya Kushwaha**
 
 ---
 
 ## ⭐ Support
 
-If you like this project:
+If you found this project useful:
+
 - ⭐ Star the repository  
 - Share it with others  
+- Give feedback  
 
+---
+
+## 🚀 Future Scope
+
+- User authentication system 🔐  
+- Dashboard with analytics 📊  
+ 
 ---
