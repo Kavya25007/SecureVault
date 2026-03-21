@@ -1,0 +1,126 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI;}
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+overflow:hidden;
+background:
+linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),
+url('https://images.unsplash.com/photo-1535223289827-42f1e9919769') center/cover no-repeat;
+}
+body::before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.75);
+}
+
+button{
+animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%{box-shadow:0 0 5px cyan;}
+50%{box-shadow:0 0 25px cyan;}
+100%{box-shadow:0 0 5px cyan;}
+}
+/* PARTICLES */
+.particle{
+position:absolute;
+width:3px;height:3px;
+background:cyan;
+animation:float 8s linear infinite;
+}
+@keyframes float{
+0%{transform:translateY(100vh);}
+100%{transform:translateY(-10vh);}
+}
+
+/* SCREEN */
+.screen{
+position:absolute;
+width:100%;
+height:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+z-index:2;
+text-align:center;
+}
+.hidden{display:none;}
+
+/* CARD */
+.container{
+width:420px;
+padding:25px;
+border-radius:20px;
+background:rgba(255,255,255,0.08);
+backdrop-filter:blur(15px);
+box-shadow:0 0 40px rgba(0,255,255,0.3);
+}
+
+/* INPUT */
+input{
+width:100%;
+padding:12px;
+margin-top:10px;
+border:none;
+border-radius:10px;
+}
+
+/* BUTTON */
+button{
+margin-top:10px;
+padding:10px 20px;   /* smaller width */
+width:auto;          /* full width hata diya */
+border-radius:30px;  /* pill shape */
+border:2px solid cyan;
+background:transparent;
+color:cyan;
+cursor:pointer;
+font-weight:bold;
+transition:0.3s;
+}
+
+button:hover{
+background:cyan;
+color:black;
+box-shadow:0 0 20px cyan;
+transform:scale(1.1);
+}
+
+/* BAR */
+.bar{
+height:10px;
+background:#1e293b;
+margin-top:10px;
+border-radius:10px;
+overflow:hidden;
+}
+.fill{
+height:100%;
+width:0%;
+transition:0.4s;
+}
+
+.result{margin-top:10px;font-size:18px;font-weight:bold;}
+.small{font-size:13px;margin-top:5px;}
+
+#toast{
+display:none;
+position:fixed;
+bottom:20px;
+background:cyan;
+color:black;
+padding:10px;
+border-radius:8px;
+}
+h1{
+font-size:45px;
+color:cyan;
+text-shadow:0 0 20px cyan, 0 0 40px cyan, 0 0 60px cyan;
+}

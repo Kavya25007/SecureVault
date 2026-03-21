@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SecureVault</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- WELCOME -->
+<div id="welcome" class="screen">
+<h1 id="typing"></h1>
+<p>Ultimate Cyber Security Platform 🔐</p>
+<button onclick="start()">Get Started 🚀</button>
+</div>
+
+<!-- APP -->
+<div id="app" class="screen hidden">
+<div class="container">
+
+<h2>🔐 Password Tool</h2>
+
+<input id="pass" type="password" placeholder="Enter Password">
+
+<button onclick="toggle()">👁️ Show/Hide</button>
+<button onclick="generate()">🎲 Generate</button>
+<button onclick="copy()">📋 Copy</button>
+<button onclick="toggleTheme()">🌙 Theme</button>
+
+<div class="bar"><div id="fill" class="fill"></div></div>
+
+<div id="result" class="result"></div>
+<div id="percent" class="small"></div>
+<div id="time" class="small"></div>
+<div id="common" class="small"></div>
+<div id="tips" class="small"></div>
+
+</div>
+</div>
+
+<div id="toast">Copied!</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
