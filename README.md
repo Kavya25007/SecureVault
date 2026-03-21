@@ -70,6 +70,16 @@ Switch between light and dark mode.
 
 ---
 
+## 🖼️ Preview
+
+### Welcome Screen
+![Welcome](welcome.png)
+
+### Password Tool
+![App](app.png)
+
+---  
+
 ## 🛠️ Tech Used
 
 - HTML  
