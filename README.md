@@ -73,10 +73,10 @@ Switch between light and dark mode.
 ## 🖼️ Preview
 
 ### Welcome Screen
-![Welcome](welcome.png)
+![Welcome](Welcome.jpeg)
 
 ### Password Tool
-![App](app.png)
+![App](app.jpeg)
 
 ---  
 
